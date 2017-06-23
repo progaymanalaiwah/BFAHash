@@ -1,4 +1,4 @@
-# Name    : BFADragon 
+# Name    : BFAHash
 # Version : 1.0.0
 # Auther  : Ayman Mahmoud Alaiwah
 # facebook: https://www.fb.com/ProgAymanAlaiwah
