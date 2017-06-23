@@ -107,14 +107,15 @@ class BruteforceAttackHash:
 
     alpah all lower and upper and number and symbol
                                                     
-    Example : BFADragon.py daAs  1-5   md5  286d5e78aebba5f8f91f4da4984f65fb
-    Example : BFADragon.py das  5-10  dsaWithSHA  286d5e78aebba5f8f91f4da4984f65fb
-    Example : BFADragon.py aAs  1-15  mdc2  286d5e78aebba5f8f91f4da4984f65fb
+    Example : BFADragon.py daAs  1-5   md5        286d5e78aebba5f8f91f4da4984f65fb
+    Example : BFADragon.py das  5-10  dsaWithSHA  69d04c58731187c39b44d60cd8acccf02dd392b3
+    Example : BFADragon.py aAs  1-15  mdc2        17354123e7f22b27e9a04b1fdcbc38a5
     
     Alpha     = daAs or all
     Range     = 1-5
     typeHash  = md5
     Hahs      = 286d5e78aebba5f8f91f4da4984f65fb
+
     ----------------[ Type Hash ]---------------
     ['SHA256', 'SHA512', 'dsaWithSHA', 'mdc2', 
     'SHA224', 'MD4', 'sha256', 'sha512', 'ripemd160',
@@ -123,8 +124,8 @@ class BruteforceAttackHash:
         'sha', 'MD5', 'sha384']
         """.yellow())
 
-BruteforceAttackHash = BruteforceAttackHash()
 
+BruteforceAttackHash = BruteforceAttackHash()
 try:
     # @var Alpah 
     # a == Latter Lower A == Latter Upper d == Number s == (=)\/*$%^&!
