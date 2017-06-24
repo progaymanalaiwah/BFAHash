@@ -17,12 +17,6 @@ def get_dict(object):return _get_dict(object).contents.value
 # Function Main 
 def set_code_color(self,code_color) :return  "\x1b[1;{0};40m{1}\x1b[0m".format(code_color,self)
 
-# Function Edit Fonts Text
-def text_bold(self)      :return "\033[1m{0}\033[21m".format(self) 
-def text_underline(self) :return "\033[4m{0}\033[24m".format(self)
-get_dict(str)['text_bold']      = text_bold
-get_dict(str)['text_underline'] = text_underline
-
 # Function Edit Text Colors
 def red(self)     :return set_code_color(self,31) 
 def green(self)   :return set_code_color(self,32) 
