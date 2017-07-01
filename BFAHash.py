@@ -42,7 +42,7 @@ class BruteforceAttackHash:
         alpha  = ''
         RangeStart,RangeEnd = re.split(r'[_-]',Range)
         self.typeHash = typeHash
-        self.encyHash = encryHash #'86318e52f5ed4801abe1d13d509443de'
+        self.encyHash = encryHash.lower() #'86318e52f5ed4801abe1d13d509443de' or '86318E52F5ED4801ABE1D13D509443DE'
         if RangeStart == "0":
             self.Help()
             return False
